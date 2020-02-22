@@ -9,6 +9,7 @@ pylint = "*"
 
 [packages]
 django = "==2.2.10"
+gunicorn = "==19.9.0"
 
 [requires]
 python_version = "3.7"
