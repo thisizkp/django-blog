@@ -9,9 +9,14 @@
 
     <body>
         <header>
-            <h1><a href="{% url 'home' %}">Blog</h1>
+            <div class="nav-left">
+                <h1><a href="{% url 'home' %}">Blog</h1>
+            </div>
+            <div class="nav-right">
+                <a href="{% url 'post_new' %}">+New Post</a>
+            </div>
         </header>
-        <a href="{% url 'post_new' %}">+New Post</a>
+
         <div>
             {% block content %}
             {% endblock content %}
