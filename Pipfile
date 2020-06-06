@@ -8,7 +8,7 @@ autopep8 = "*"
 pylint = "*"
 
 [packages]
-django = "==2.2.10"
+django = "==2.2.13"
 gunicorn = "==19.9.0"
 whitenoise = "==3.3.1"
 
